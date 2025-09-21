@@ -30,6 +30,12 @@ while play_again == 'Y':
     score = max(1, 20 - attempts)
     #Gives a socre no matter what, ensures pity points as well
     print('Your score is: %d' % score)
+    #Tells te user wat their score was
+    print('The secret number was %d' % secret_number)
+    #tells the user what the secret number was
+    print('Attempts: %d' % attempts)
+    #tells the user the number of attempts
     play_again = input('Play again? (Y/N): ')
+    #This will ask the user if they want to play again and updates the variable play_again to determine if loop restarts 
 
 print('Thanks for playing '+name+ ' and Goodbye!')
